@@ -11,7 +11,7 @@ For this next assignment, you’re required to use **pytest** to test your Pytho
     - Below is an example Python script that has **five** functions using print statements. You need to refactor each function to _return_ its result instead of printing it directly:
         
     
-    ```
+    ```python
     # hello_world.py
     
     def greet_user(name):
@@ -45,7 +45,7 @@ For this next assignment, you’re required to use **pytest** to test your Pytho
     - Your job is to transform these functions so they **return** their respective results rather than using `print`. For example, your final `greet_user` might look like:
         
     
-    ```
+    ```python
     def greet_user(name):
         return f"Hello, {name}!"
     ```
@@ -56,19 +56,13 @@ For this next assignment, you’re required to use **pytest** to test your Pytho
     
     - Install pytest in your conda environment if you haven’t yet. For example:
         
-        ```
-        conda install pytest
-        ```
-        
-        or
-        
-        ```
+        ```bash
         mamba install pytest
         ```
         
     - Create a test file (e.g., `test_hello_world.py`) in the same directory and write tests that check these newly refactored functions. For example:
         
-        ```
+        ```python
         from hello_world import greet_user, calculate_sum, find_average, uppercase_string, combine_messages
         
         def test_greet_user():
@@ -89,7 +83,7 @@ For this next assignment, you’re required to use **pytest** to test your Pytho
         
     - Run your tests using:
         
-        ```
+        ```bash
         pytest
         ```
         
