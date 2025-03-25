@@ -18,6 +18,7 @@ def uppercase_string(s):
 
 def combine_messages(greeting, name):
     # TODO: Convert this to return a combined message (e.g. "Hello, name!") instead of printing
+    # Another comment!!!!!!
     return f"{greeting}, {name}!"
 
 def say_hello():
@@ -30,6 +31,9 @@ def f(x):
 def g(x):
 
     return f(x) * 10
+
+def new_function_for_git_learning():
+    pass
 
 if __name__ == "__main__":
     # print(greet_user("Neeraj"))
