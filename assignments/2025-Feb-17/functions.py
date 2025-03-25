@@ -18,6 +18,9 @@ def combine_messages(greeting, name):
     # TODO: Convert this to return a combined message (e.g. "Hello, name!") instead of printing
     return f"{greeting}, {name}!"
 
+def new_function_for_git_learning():
+    pass
+
 if __name__ == "__main__":
     greet_user("Neeraj")
     calculate_sum(2, 3)
