@@ -10,12 +10,9 @@ def find_average(numbers):
     # TODO: Convert this to return the average instead of printing
     return sum(numbers) / len(numbers)
 
-def uppercase_string(s):
-    # TODO: Convert this to return the uppercase version instead of printing
-    return f"{s.upper()}"
-
 def combine_messages(greeting, name):
     # TODO: Convert this to return a combined message (e.g. "Hello, name!") instead of printing
+    # Another comment!!!!!!
     return f"{greeting}, {name}!"
 
 def new_function_for_git_learning():
