@@ -39,5 +39,4 @@ while user_input != "end":
     print(resp)
     user_input = input("Write to ChatGPT here:\n")
     messages.append({"role": "user", "content": user_input})
-
 save_memory(messages)
