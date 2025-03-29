@@ -8,7 +8,7 @@ client = OpenAI()
 
 def save_memory(messages):
     with open("memory.txt", "w") as x:
-        x.write(str(messages) + "\n")
+        x.write(str(messages))
 
 def load_memory():
     if os.path.exists("memory.txt"):
