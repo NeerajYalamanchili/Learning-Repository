@@ -14,4 +14,5 @@
                 - Consumables
                 - etc.
 
-Use [smolagents](https://github.com/huggingface/smolagents) to implement agent which can do call these functions. 
+https://modelcontextprotocol.io/introduction
+Use [smolagents](https://github.com/huggingface/smolagents) to implement agent which can do call these functions.
